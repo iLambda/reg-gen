@@ -14,5 +14,12 @@
     "word"
   ],
   "author": "iLambda",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.8.2"
+  },
+  "devDependencies": {
+    "tape": "^4.5.1",
+    "tape-catch": "^1.0.4"
+  }
 }
