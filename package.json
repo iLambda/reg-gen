@@ -1,0 +1,18 @@
+{
+  "name": "reg-gen",
+  "version": "0.1.0",
+  "description": "A simple npm package that generates words from a regular expression.",
+  "main": "lib/reg-gen.js",
+  "scripts": {
+    "test": "node test/reg-gen.js"
+  },
+  "keywords": [
+    "regexp",
+    "regex",
+    "generator",
+    "fsm",
+    "word"
+  ],
+  "author": "iLambda",
+  "license": "MIT"
+}
