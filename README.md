@@ -1,4 +1,4 @@
-# reg-gen
+# reg-gen (in development)
 A javascript library for generating words that match a regular expression.
 This module is available on npm as [reg-gen](https://www.npmjs.com/package/reg-gen).
 
