@@ -3,7 +3,7 @@ A javascript library for generating words that match a regular expression.
 This module is available on npm as [reg-gen](https://www.npmjs.com/package/reg-gen).
 
 The core principle of the library is the following :
-* create the associated state machine
+* create the associated non-deterministic state machine ([check this article for more explanations](https://swtch.com/~rsc/regexp/regexp1.html))
 * create a path inside the fsm of length **min**(*min_length*, *length*) ends on a final state. if a seed has been specified, get the associated path
 * build the word from the path
 * return it
